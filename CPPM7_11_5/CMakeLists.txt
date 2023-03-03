@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.10)
+project(CPPM7_11_5)
+add_library(FigureLibDynamic SHARED Figure.h Figure.cpp Triangle.h Triangle.cpp Quadrilateral.cpp Quadrilateral.h)
+add_executable(CPPM7_11_5 CPPM7_11_5.cpp Quadrilateral.cpp Quadrilateral.h)
+target_link_libraries(CPPM7_11_5 FigureLibDynamic)
