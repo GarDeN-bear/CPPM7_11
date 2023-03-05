@@ -1,5 +1,6 @@
 #pragma once
 #include "Figure.h"
+
 namespace Quadr {
 	// Класс четырёхугольник
 	class Quadrilateral : public Figure {

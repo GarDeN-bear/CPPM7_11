@@ -9,4 +9,5 @@ int main() {
 	std::cin >> name;
 	Leaver leaver;
 	leaver.leave(name);
+	system("pause");
 }
