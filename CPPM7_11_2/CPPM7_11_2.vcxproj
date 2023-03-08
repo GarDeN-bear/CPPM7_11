@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{98d282c1-ca62-4fd1-963e-d3cfc55b8f47}</ProjectGuid>
+    <ProjectGuid>{c22718b6-48eb-4ca5-929f-2d601bd539fa}</ProjectGuid>
     <RootNamespace>CPPM7112</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -104,7 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\Netology_CPP7\Базовое программирование на С++\CPPM-7__Сборка_и_подключение_библиотек\CPPM7_11\LeaverDynamicLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Netology_CPP7\Базовое программирование на С++\CPPM-7__Сборка_и_подключение_библиотек\CPPM7_11\LeaverLibraryDynamic;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -131,8 +131,8 @@
     <ClCompile Include="CPPM7_11_2.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LeaverDynamicLib\LeaverDynamicLib.vcxproj">
-      <Project>{53315b56-5304-41d6-beb0-37352aa867b8}</Project>
+    <ProjectReference Include="..\LeaverLibraryDynamic\LeaverLibraryDynamic.vcxproj">
+      <Project>{5e617b6d-7a39-4597-b7c9-32c57177574e}</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{72b2b777-6e33-4941-8599-dd29d394ef0c}</ProjectGuid>
+    <ProjectGuid>{94cceb5e-519a-4fa2-a3f0-a6c896c1c066}</ProjectGuid>
     <RootNamespace>CPPM7114</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -104,7 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\Netology_CPP7\Базовое программирование на С++\CPPM-7__Сборка_и_подключение_библиотек\CPPM7_11\FigureLibDynamic;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Netology_CPP7\Базовое программирование на С++\CPPM-7__Сборка_и_подключение_библиотек\CPPM7_11\FigureLibraryDynamic;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -128,12 +128,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FigureLibDynamic\FigureLibDynamic.vcxproj">
-      <Project>{a45a1cd2-942a-408a-a087-996dc5d790f5}</Project>
-    </ProjectReference>
+    <ClCompile Include="CPPM7_11_4.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CPPM7_11_4.cpp" />
+    <ProjectReference Include="..\FigureLibraryDynamic\FigureLibraryDynamic.vcxproj">
+      <Project>{8eeac26e-8803-454e-b3ed-35f8c9a5e49b}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

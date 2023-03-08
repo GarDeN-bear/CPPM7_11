@@ -1,10 +1,10 @@
 #include "Figure.h"
-#include "Triangle.h"
 #include "Quadrilateral.h"
+#include "Triangle.h"
 #include <Windows.h>
 
 
-void print_info(Figure::Figure* figure) {
+void print_info(Figure::Figure * figure) {
 	figure->get_info();
 }
 
