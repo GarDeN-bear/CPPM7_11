@@ -24,6 +24,7 @@
     <ProjectGuid>{53315b56-5304-41d6-beb0-37352aa867b8}</ProjectGuid>
     <RootNamespace>LeaverDynamicLib</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>LeaverLibraryDynamic</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

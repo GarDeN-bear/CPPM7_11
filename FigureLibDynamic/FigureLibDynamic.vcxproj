@@ -24,6 +24,7 @@
     <ProjectGuid>{a45a1cd2-942a-408a-a087-996dc5d790f5}</ProjectGuid>
     <RootNamespace>FigureLibDynamic</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>FigureLibraryDynamic</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

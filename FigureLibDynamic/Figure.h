@@ -1,6 +1,6 @@
 #pragma once
 #include <iostream>
-#ifndef FIGURELIBRARYDYNAMIC_EXPORTS
+#ifdef FIGURELIBRARYDYNAMIC_EXPORTS
 #define FIGURELIBRARY_API __declspec(dllexport)
 #else
 #define FIGURELIBRARY_API __declspec(dllimport)

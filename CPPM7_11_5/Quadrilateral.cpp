@@ -1,6 +1,6 @@
 #include "Quadrilateral.h"
 
-namespace Quadr {
+namespace Figure {
 	Quadrilateral::Quadrilateral() {
 		name = "Четырёхугольник";
 		sides_count = 4;
